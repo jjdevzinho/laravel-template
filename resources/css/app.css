@@ -6,32 +6,32 @@
     .theme-dark {
         --primary: #64b5f6;
         --secondary: #f000b8;
-        --accent: #37cdbe;
+        --tertiary: #37cdbe;
         --base-000: #434e60;
         --base-100: #3d4451;
         --base-200: #2a2e37;
         --base-300: #16181d;
-        --text-base-100: #ebecf0;
-        --text-base-200: #b9b9bd;
+        --content-100: #ebecf0;
+        --content-200: #b9b9bd;
         --info: #66c7ff;
         --success: #87d039;
         --warning: #e2d562;
-        --error: #ff6f6f;
+        --danger: #ff6f6f;
     }
 
     .theme-light {
         --primary: #64b5f6;
         --secondary: #f000b8;
-        --accent: #37cdbe;
+        --tertiary: #37cdbe;
         --base-000: #ffffff;
         --base-100: #fcfdff;
         --base-200: #f9fafb;
         --base-300: #d1d5db;
-        --text-base-100: #1f2937;
-        --text-base-200: #34455d;
+        --content-100: #34455d;
+        --content-200: #1f2937;
         --info: #2094f3;
         --success: #009485;
         --warning: #ff9900;
-        --error: #ff5724;
+        --danger: #ff5724;
     }
 }
