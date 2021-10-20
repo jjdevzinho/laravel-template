@@ -1,13 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello</title>
-    <link rel="stylesheet" href="{{ mix('css/app.css') }}">
-</head>
-<body class="bg-gray-500 text-center h-screen">
-    <h1 class="text-gray-800">Bem Vindo</h1>
-</body>
-</html>
+@extends('styles.tailwindcss')
+@section('title', 'Bem vindo a Home')
+@section('description', 'Pagina inicial do site de teste para templates no laravel')
+@section('content')
+<h1>Um novo titulo</h1>
+@endsection
